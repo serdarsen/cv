@@ -1,278 +1,170 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Serdar ŞEN",
+  initials: "SŞ",
+  location: "Didim, Aydın, Turkey, GMT+3",
+  locationLink: "https://www.google.com/maps/place/Didim",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Developer creating precise, detail-oriented products through collaboration and by meeting your requirements",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Full Stack Developer adept at resolving complex issues, enhancing products, and mentoring. Specializes in React, Next.js, JavaScript, TypeScript, Java, Spring Framework, Spring Boot, and PostgreSQL. Proficient in React (3+ yrs) and Java (3+ yrs), with 3+ years of remote work expertise. Open to learning AWS, Cloud, Security, Next.js, Angular, Vue.js, Node.js.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/26231317?v=4",
+  personalWebsiteUrl: "https://serdarsen.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "serdarsendev@gmail.com",
+    tel: "+905453748793",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/serdarsen",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/serdarsen/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/serdarsendev",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
-  work: [
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      school: "ADU",
+      degree: "Bachelor's Degree in CEIT, GPA: 3.48/4.0 ",
+      start: "09/2013",
+      end: "06/2017",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React.js",
+    "Next.js",
+    "Context API", 
+    "Redux Toolkit", 
+    "Zustand",
+    "Tailwind CSS",
+    "Shadcn UI", 
+    "SCSS", 
+    "Antd", 
+    "Bootstrap",
+    "Webpack", 
+    "Vite",
+    "Npm", 
+    "Pnpm", 
+    "Yarn",
+    "Java", 
+    "Spring Framework",
+    "Spring Boot",
+    "JSON", 
+    "Git", 
+    "Jira",
+    "Hibernate",
+    "PostgreSQL"
+  ],
+  work: [
+    {
+      company: "Self",
+      link: "",
+      badges: ["Remote"],
+      title: "Full Stack Developer",
+      logo: "",
+      start: "01/2023",
+      end: "Present",
+      description:
+        "Self-Development: Attained certifications in Web Development and English Proficiency. Contributed to open-source projects. Exploring a diverse range of technologies.",
+    },
+    {
+      company: "Hubtic",
+      link: "https://www.linkedin.com/company/hubticde/",
+      badges: ["Remote"],
+      title: "Front End Developer",
+      logo: "",
+      start: "10/2022",
+      end: "01/2023",
+      description:
+        "Logistics Management Web Application: Enhanced codebase stability by upgrading dependencies and implementations. Collaborated on the frontend development using Vite, React, TypeScript, Redux Toolkit, Eslint, Tailwind CSS, Yarn, and Ant Design for logistics operations managers. Implemented features within the planned timeline, ensuring efficient teamwork.",
+    },
+    {
+      company: "Kron",
+      link: "https://www.linkedin.com/company/kront/",
+      badges: ["Hybrid"],
+      title: "Full Stack Developer",
+      logo: "",
+      start: "09/2019",
+      end: "04/2022",
+      description:
+        "Servers Management Web Application: Improved user-friendliness by implementing intuitive navigation, simplifying complex processes, and enhancing the overall user interface. Engaged in full-stack development with React, JavaScript, TypeScript, Bootstrap, SCSS, Java, Hibernate, Spring Boot, PostgreSQL for IT system servers administrators. Executed feature implementations both independently and collaboratively within the team, actively participating in regular Scrum meetings for efficient progress and coordination.",
+    },
+    {
+      company: "Parknet",
+      link: "",
+      badges: ["On-site"],
+      title: "Full Stack Developer",
+      logo: "",
+      start: "10/2018",
+      end: "09/2019",
+      description: "Product Management Web Application: Created .Net Core Rest APIs, wrote unit tests.",
+    },
+    {
+      company: "Turkcell Academy",
+      link: "https://gelecegiyazanlar.turkcell.com.tr/",
+      badges: ["Hybrid"],
+      title: "Mobile Application Development Instructor",
+      logo: "",
+      start: "06/2017",
+      end: "08/2017",
+      description: "Turkcell Geleceği Yazanlar Events: Volunteered as a mobile application development instructor.",
+    },
+    {
+      company: "Freelance",
+      link: "",
+      badges: ["Remote"],
+      title: "Mobile Application Developer",
+      logo: "",
+      start: "06/2017",
+      end: "10/2017",
+      description: "Mobile Applications: Executed mobile application developments using Java and Android SDK.",
+    },
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "CV",
       techStack: [
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Tailwind CSS",
+        "Shadcn UI"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Print-friendly, minimalist CV page",
+      logo: "",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "cv.serdarsen.com",
+        href: "https://cv.serdarsen.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Single Monitor",
       techStack: [
         "Full Stack Developer",
-        "TypeScript",
+        "JavaScript",
         "React",
-        "Node.js",
-        "GraphQL",
+        "Java",
+        "PostgreSQL",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "A Kron product to monitor and manage IT infrastructure",
+      logo: "",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "krontech.com/en/traffic-analyzer-product-family",
+        href: "https://krontech.com/en/traffic-analyzer-product-family",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
