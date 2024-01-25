@@ -134,7 +134,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "CV",
+      title: "Portfolio Site",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -142,11 +142,44 @@ export const RESUME_DATA = {
         "Tailwind CSS",
         "Shadcn UI"
       ],
-      description: "Print-friendly, minimalist CV page",
+      description: "Minimalist portfolio site",
+      logo: "",
+      link: {
+        label: "serdarsen.com",
+        href: "https://www.serdarsen.com/",
+      },
+    },
+    {
+      title: "Resume Site",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ],
+      description: "Print-friendly, minimalist resume site",
       logo: "",
       link: {
         label: "cv.serdarsen.com",
         href: "https://cv.serdarsen.com/",
+      },
+    },
+    {
+      title: "Hubtic TMS",
+      techStack: [
+        "Front End Developer",
+        "TypeScript",
+        "React",
+        "Redux Toolkit",
+        "Tailwind CSS",
+      ],
+      description:
+        "Integrated platform that combines all logistics operations",
+      logo: "",
+      link: {
+        label: "hubtic.com",
+        href: "https://www.hubtic.com/",
       },
     },
     {
@@ -159,7 +192,7 @@ export const RESUME_DATA = {
         "PostgreSQL",
       ],
       description:
-        "A Kron product to monitor and manage IT infrastructure",
+        "Product to monitor and manage IT infrastructure",
       logo: "",
       link: {
         label: "krontech.com/en/traffic-analyzer-product-family",
