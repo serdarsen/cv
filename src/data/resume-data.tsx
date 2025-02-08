@@ -90,6 +90,16 @@ export const RESUME_DATA = {
       ]
     }
   ],
+  certifications: [
+    "English Proficiency | Duolingo | August 2023",
+    "The Nuts and Bolts of OAuth 2.0 | Udemy | July 2023",
+    "Advanced React | Coursera | March 2023",
+    "Programming with JavaScript | Coursera | August 2022",
+    "React: Design Patterns | LinkedIn | 2022",
+    "Design Patterns in Java | Pluralsight | August 2020",
+    "Encapsulation and SOLID | Pluralsight | August 2020",
+    "SOLID Software Design Principles in Java | Pluralsight | August 2020"
+  ],
   work: [
     {
       company: "Myliba",

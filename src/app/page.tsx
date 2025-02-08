@@ -96,7 +96,10 @@ export default function Page() {
         <Section>
           <h2 className="text-md font-bold">SUMMARY</h2>
           <p className="text-pretty font-mono text-md text-muted-foreground">
-            {RESUME_DATA.summary.split("**").map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)}
+            {RESUME_DATA.summary.split("**").map(
+                (part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part
+              )
+            }
           </p>
         </Section>
 
@@ -147,6 +150,19 @@ export default function Page() {
         </Section>
 
         <Section>
+          <h2 className="text-md font-bold">CERTIFICATIONS</h2>
+          <div className="space-y-2">
+          <ul className="list-disc pl-5 mt-2">
+            {RESUME_DATA.certifications.map((certificate) => (
+              <li key={certificate}>
+                {certificate}
+              </li>
+            ))}
+          </ul>
+          </div>
+        </Section>
+
+        <Section>
           <h2 className="text-md font-bold">TECHNICAL WORK EXPERIENCE</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -184,7 +200,9 @@ export default function Page() {
                     (
                       <li key={index}>
                         {
-                          item.split("**").map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)
+                          item.split("**").map(
+                            (part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part
+                          )
                         }
                       </li>
                     ))}
