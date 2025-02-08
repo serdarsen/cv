@@ -16,15 +16,15 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16 font-mono">
       <section className="mx-auto w-full max-w-5xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-muted-foreground">
+            <p className="max-w-md text-pretty text-muted-foreground">
               {RESUME_DATA.about}
             </p>
-            <p className="max-w-md items-center text-pretty font-mono text-muted-foreground">
+            <p className="max-w-md items-center text-pretty text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
@@ -34,7 +34,7 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-muted-foreground print:hidden">
+            <div className="flex gap-x-1 pt-1 text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
@@ -73,7 +73,7 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-muted-foreground print:flex">
+            <div className="hidden flex-col gap-x-1 text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
@@ -95,7 +95,7 @@ export default function Page() {
 
         <Section>
           <h2 className="font-bold">SUMMARY</h2>
-          <p className="text-pretty font-mono text-muted-foreground">
+          <p className="text-pretty text-muted-foreground">
             {RESUME_DATA.summary.split("**").map(
                 (part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part
               )
@@ -152,7 +152,7 @@ export default function Page() {
         <Section>
           <h2 className="font-bold">CERTIFICATIONS</h2>
           <div className="space-y-2">
-          <ul className="list-disc pl-5 mt-2 font-mono text-muted-foreground">
+          <ul className="list-disc pl-5 mt-2 text-muted-foreground">
             {RESUME_DATA.certifications.map((certificate) => (
               <li key={certificate}>
                 {certificate}
@@ -192,7 +192,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="my-4">
-                  <h4 className="font-mono leading-none text-muted-foreground">
+                  <h4 className="leading-none text-muted-foreground">
                     {work.title}
                   </h4>
                   <ul className="list-disc pl-5 mt-2">
