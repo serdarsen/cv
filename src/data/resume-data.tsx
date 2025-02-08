@@ -47,33 +47,18 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Next.js",
-    "Context API", 
-    "Redux Toolkit", 
-    "Zustand",
-    "Tailwind CSS",
-    "Shadcn UI", 
-    "SCSS", 
-    "Antd", 
-    "Bootstrap",
-    "Webpack", 
-    "Vite",
-    "Npm", 
-    "Pnpm", 
-    "Yarn",
-    "Java", 
-    "Spring Framework",
-    "Spring Boot",
-    "JSON", 
-    "Git", 
-    "Python",
-    "Ubuntu",
-    "Jira",
-    "Hibernate",
-    "PostgreSQL"
+    {
+      category: "Programming Languages",
+      skills: [
+        "Java", "C#", "Python", "JavaScript", "TypeScript", "Spring Boot", ".Net Core", "JSON"
+      ]
+    },
+    {
+      category: "Software",
+      skills: [
+        "Discord", "Slack", "Visual Studio Code", "IntelliJ IDEA", "GitHub", "Gitlab", "JIRA"
+      ]
+    }
   ],
   work: [
     {
