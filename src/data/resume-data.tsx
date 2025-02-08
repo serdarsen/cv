@@ -34,8 +34,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Cincinnati, Cincinnati, Ohio",
-      degree: "Master's Degree: Master of Science: Information Technology (IT)",
+      school: "University of Cincinnati, School of Information Technology, Ohio",
+      degree: "Master's Degree: Master of Science: Information Technology",
       grade: "GPA: 3.9 / 4.0",
       date: "Expected Graduation: December 2025",
     },
