@@ -3,17 +3,17 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Serdar ŞEN",
   initials: "SŞ",
-  location: "Didim, Aydın, Turkey, GMT+3",
-  locationLink: "https://www.google.com/maps/place/Didim",
+  location: "Cincinnati, OHIO",
+  locationLink: "https://www.google.com/maps/place/Cincinnati",
   about:
-    "Full Stack Developer creating precise, detail-oriented products through collaboration and by meeting your requirements",
+    "Software Developer | MSIT@UC | React | Java | Angular | C# | Python | JSON | PostgreSQL | MongoDB | Tailwind CSS | SCSS | REST | JavaScript | TypeScript",
   summary:
-    "Full Stack Developer adept at resolving complex issues, enhancing products, and mentoring. Specializes in React, Next.js, JavaScript, TypeScript, Java, Spring Framework, Spring Boot, and PostgreSQL. Proficient in React (3+ yrs) and Java (3+ yrs), with 3+ years of remote work expertise. Open to learning AWS, Cloud, Security, Next.js, Angular, Vue.js, Node.js.",
+    "Results-driven **Software Developer** with expertise in **Java, C#, Python, JavaScript, and TypeScript**, specializing in backend, frontend, and database optimization. Experienced in developing scalable web and mobile applications using frameworks like **React, Angular, .NET Core, and Spring Boot**. Proven ability to enhance codebase stability, security, and performance, achieving measurable improvements such as a **20% increase in application efficiency and a 80% boost in report readability**. Passionate about mentoring, open-source contributions, and delivering user-centric solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/26231317?v=4",
   personalWebsiteUrl: "https://serdarsen.com",
   contact: {
     email: "serdarsendev@gmail.com",
-    tel: "+905453748793",
+    tel: "+105134883854",
     social: [
       {
         name: "GitHub",
@@ -63,74 +63,72 @@ export const RESUME_DATA = {
     "Spring Boot",
     "JSON", 
     "Git", 
+    "Python",
+    "Ubuntu",
     "Jira",
     "Hibernate",
     "PostgreSQL"
   ],
   work: [
     {
-      company: "Self",
-      link: "",
+      company: "Myliba",
+      link: "https://www.linkedin.com/company/myliba/",
       badges: ["Remote"],
-      title: "Full Stack Developer",
+      title: "Software Developer",
       logo: "",
-      start: "01/2023",
-      end: "Present",
-      description:
-        "Self-Development: Attained certifications in Web Development and English Proficiency. Contributed to open-source projects. Exploring a diverse range of technologies.",
+      start: "02/2024",
+      end: "08/2024",
+      items: [
+        "Collaborated as a team member on an object-key-result management system, contributing to backend, frontend, and database optimization using Angular, Tailwind CSS, SCSS, C#, .Net Core, and MongoDB.",
+        "Increased **authentication security by 20%** by resolving identified vulnerabilities.",
+        "Developed an audit log feature improving **customer engagement by 80%.**"
+      ]
     },
     {
       company: "Hubtic",
       link: "https://www.linkedin.com/company/hubticde/",
       badges: ["Remote"],
-      title: "Front End Developer",
+      title: "Software Developer",
       logo: "",
       start: "10/2022",
       end: "01/2023",
-      description:
-        "Logistics Management Web Application: Enhanced codebase stability by upgrading dependencies and implementations. Collaborated on the frontend development using Vite, React, TypeScript, Redux Toolkit, Eslint, Tailwind CSS, Yarn, and Ant Design for logistics operations managers. Implemented features within the planned timeline, ensuring efficient teamwork.",
+      items: [
+        "Collaborated as a team member on a logistics management system, contributing to frontend using React, Redux, TypeScript, and Tailwind CSS.",
+        "Enhanced **codebase stability by 20%** through upgrading and optimizing dependencies.",
+        "Improved the invoice report system through UI and API optimization."
+      ]
     },
     {
       company: "Kron",
       link: "https://www.linkedin.com/company/kront/",
       badges: ["Hybrid"],
-      title: "Full Stack Developer",
+      title: "Software Developer",
       logo: "",
       start: "09/2019",
       end: "04/2022",
-      description:
-        "Servers Management Web Application: Improved user-friendliness by implementing intuitive navigation, simplifying complex processes, and enhancing the overall user interface. Engaged in full-stack development with React, JavaScript, TypeScript, Bootstrap, SCSS, Java, Hibernate, Spring Boot, PostgreSQL for IT system servers administrators. Executed feature implementations both independently and collaboratively within the team, actively participating in regular Scrum meetings for efficient progress and coordination.",
+      items: [
+        "Collaborated as a team member on a server management system, contributing to backend, frontend, and database optimization using React, SCSS, Java, Spring Boot, REST, JSON, and PostgreSQL.",
+        "Enhanced application **efficiency by 20%** by fixing and refactoring redundant code elements.",
+        "Optimized the server status report system, enhancing both the codebase and report **readability by 80%**.",
+        "Debugged and enhanced the project, resolving issues and reducing **JIRA tickets by 60%**.",
+        "**Mentored** new team members by teaching programming fundamentals and sharing business expertise."
+      ]
     },
     {
       company: "Parknet",
       link: "",
       badges: ["On-site"],
-      title: "Full Stack Developer",
+      title: "Software Developer",
       logo: "",
       start: "10/2018",
       end: "09/2019",
       description: "Product Management Web Application: Created .Net Core Rest APIs, wrote unit tests.",
-    },
-    {
-      company: "Turkcell Academy",
-      link: "https://gelecegiyazanlar.turkcell.com.tr/",
-      badges: ["Hybrid"],
-      title: "Mobile Application Development Instructor",
-      logo: "",
-      start: "06/2017",
-      end: "08/2017",
-      description: "Turkcell Geleceği Yazanlar Events: Volunteered as a mobile application development instructor.",
-    },
-    {
-      company: "Freelance",
-      link: "",
-      badges: ["Remote"],
-      title: "Mobile Application Developer",
-      logo: "",
-      start: "06/2017",
-      end: "10/2017",
-      description: "Mobile Applications: Executed mobile application developments using Java and Android SDK.",
-    },
+      items: [
+        "Collaborated as a team member on a product management system, contributing to backend, frontend, and database optimization using C#, .Net Core, and JavaScript.",
+        "Developed unit tests, increasing **test coverage by 50%**.",
+        "**Mentored** new team members to adapt to a fast-paced development environment."
+      ]
+    }
   ],
   projects: [
     {
@@ -185,7 +183,7 @@ export const RESUME_DATA = {
     {
       title: "Single Monitor",
       techStack: [
-        "Full Stack Developer",
+        "Software Developer",
         "JavaScript",
         "React",
         "Java",
