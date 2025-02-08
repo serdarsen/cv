@@ -26,7 +26,7 @@ export default function Page() {
             </p>
             <p className="max-w-md items-center text-pretty text-muted-foreground">
               <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                className="inline-flex gap-x-1.5 align-baseline hover:underline"
                 href={RESUME_DATA.locationLink}
                 target="_blank"
               >
@@ -107,10 +107,10 @@ export default function Page() {
           <h2 className="font-bold">EDUCATION</h2>
           {RESUME_DATA.education.map((education) => {
             return (
-              <Card key={education.school}>
+              <Card className="text-muted-foreground" key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2">
-                    <h3 className="font-semibold leading-none">
+                    <h3 className="font-semibold">
                       {education.school}
                     </h3>
                     <div className="tabular-nums text-muted-foreground">
@@ -138,10 +138,10 @@ export default function Page() {
           <div className="space-y-2">
             {RESUME_DATA.skills.map(({category, skills}) => (
                 <div className="flex gap-2" key={category}>
-                  <h3 className="font-bold text-muted-foreground">{category}:</h3>
+                  <h3 className="font-semibold text-muted-foreground">{category}:</h3>
                   <div className="flex flex-wrap gap-1">
                     {skills.map((skill) => {
-                    return <Badge key={skill}>{skill}</Badge>;
+                    return <Badge className="bg-gray-600" key={skill}>{skill}</Badge>;
                     })}
                   </div>
                 </div>
@@ -169,7 +169,7 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
@@ -192,7 +192,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="my-4">
-                  <h4 className="leading-none text-muted-foreground">
+                  <h4 className="text-muted-foreground">
                     {work.title}
                   </h4>
                   <ul className="list-disc pl-5 mt-2">
@@ -214,7 +214,7 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="font-bold">Projects</h2>
+          <h2 className="font-bold">PROJECTS</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
