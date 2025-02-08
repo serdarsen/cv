@@ -177,7 +177,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Hubtic TMS",
+      title: "Hubtic",
       techStack: [
         "TypeScript",
         "React",
@@ -211,7 +211,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Portfolio Site",
+      title: "Portfolio",
       techStack: [
         "TypeScript",
         "Next.js",
@@ -226,7 +226,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Resume Site",
+      title: "Resume",
       techStack: [
         "TypeScript",
         "Next.js",
