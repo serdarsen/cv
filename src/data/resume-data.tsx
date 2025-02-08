@@ -159,41 +159,26 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Portfolio Site",
+      title: "Myliba",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
+        "Angular",
         "Tailwind CSS",
-        "Shadcn UI"
+        "SCSS",
+        "C#",
+        ".Net Core",
+        "MongoDB"
       ],
-      description: "Minimalist portfolio site",
+      description:
+        "OKR and company culture platform that combines all performance operations",
       logo: "",
       link: {
-        label: "serdarsen.com",
-        href: "https://www.serdarsen.com/",
-      },
-    },
-    {
-      title: "Resume Site",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "Shadcn UI"
-      ],
-      description: "Print-friendly, minimalist resume site",
-      logo: "",
-      link: {
-        label: "cv.serdarsen.com",
-        href: "https://cv.serdarsen.com/",
+        label: "myliba.com",
+        href: "https://www.myliba.com/",
       },
     },
     {
       title: "Hubtic TMS",
       techStack: [
-        "Front End Developer",
         "TypeScript",
         "React",
         "Redux Toolkit",
@@ -210,11 +195,12 @@ export const RESUME_DATA = {
     {
       title: "Single Monitor",
       techStack: [
-        "Software Developer",
+        "TypeScript",
         "JavaScript",
         "React",
         "Java",
         "PostgreSQL",
+        "Spring Boot",
       ],
       description:
         "Product to monitor and manage IT infrastructure",
@@ -222,6 +208,36 @@ export const RESUME_DATA = {
       link: {
         label: "krontech.com/en/traffic-analyzer-product-family",
         href: "https://krontech.com/en/traffic-analyzer-product-family",
+      },
+    },
+    {
+      title: "Portfolio Site",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ],
+      description: "Minimalist portfolio site",
+      logo: "",
+      link: {
+        label: "serdarsen.com",
+        href: "https://www.serdarsen.com/",
+      },
+    },
+    {
+      title: "Resume Site",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn UI"
+      ],
+      description: "Print-friendly, minimalist resume site",
+      logo: "",
+      link: {
+        label: "cv.serdarsen.com",
+        href: "https://cv.serdarsen.com/",
       },
     }
   ],
