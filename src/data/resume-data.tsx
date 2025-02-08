@@ -120,8 +120,8 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Kron",
-      link: "https://www.linkedin.com/company/kront/",
+      company: "Krontech",
+      link: "https://www.linkedin.com/company/krontech/",
       badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
