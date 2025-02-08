@@ -171,16 +171,15 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-md tabular-nums text-gray-500">
-                      {work.start} - {work.end}
+                      {work.date}
                     </div>
                   </div>
-
+                </CardHeader>
+                <CardContent className="my-4 text-md">
                   <h4 className="font-mono text-md leading-none">
                     {work.title}
                   </h4>
-                </CardHeader>
-                <CardContent className="mt-2 text-md">
-                  <ul className="list-disc pl-5">
+                  <ul className="list-disc pl-5 mt-2">
                     {work.items.map((item, index) => 
                     (
                       <li key={index}>

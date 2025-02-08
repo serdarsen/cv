@@ -35,13 +35,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Cincinnati, Cincinnati, Ohio",
-      degree: "Master’s Degree: Master of Science: Information Technology (IT)",
+      degree: "Master's Degree: Master of Science: Information Technology (IT)",
       grade: "GPA: 3.9 / 4.0",
       date: "Expected Graduation: December 2025",
     },
     {
       school: "Adnan Menderes University, College of Education, Turkey",
-      degree: "Bachelor’s Degree: Bachelor of Computer Education and Instructional Technology",
+      degree: "Bachelor's Degree: Bachelor of Computer Education and Instructional Technology",
       grade: "GPA: 3.4 / 4.0",
       date: "September 2013 - June 2017"
     },
@@ -97,8 +97,7 @@ export const RESUME_DATA = {
       badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
-      start: "02/2024",
-      end: "08/2024",
+      date: "February 2024 - August 2024",
       items: [
         "Collaborated as a team member on an object-key-result management system, contributing to backend, frontend, and database optimization using Angular, Tailwind CSS, SCSS, C#, .Net Core, and MongoDB.",
         "Increased **authentication security by 20%** by resolving identified vulnerabilities.",
@@ -111,8 +110,7 @@ export const RESUME_DATA = {
       badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
-      start: "10/2022",
-      end: "01/2023",
+      date: "October 2022 - January 2023",
       items: [
         "Collaborated as a team member on a logistics management system, contributing to frontend using React, Redux, TypeScript, and Tailwind CSS.",
         "Enhanced **codebase stability by 20%** through upgrading and optimizing dependencies.",
@@ -125,8 +123,7 @@ export const RESUME_DATA = {
       badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
-      start: "09/2019",
-      end: "04/2022",
+      date: "September 2019 - April 2022",
       items: [
         "Collaborated as a team member on a server management system, contributing to backend, frontend, and database optimization using React, SCSS, Java, Spring Boot, REST, JSON, and PostgreSQL.",
         "Enhanced application **efficiency by 20%** by fixing and refactoring redundant code elements.",
@@ -141,8 +138,7 @@ export const RESUME_DATA = {
       badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
-      start: "10/2018",
-      end: "09/2019",
+      date: "October 2018 - September 2019",
       description: "Product Management Web Application: Created .Net Core Rest APIs, wrote unit tests.",
       items: [
         "Collaborated as a team member on a product management system, contributing to backend, frontend, and database optimization using C#, .Net Core, and JavaScript.",
