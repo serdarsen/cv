@@ -58,6 +58,36 @@ export const RESUME_DATA = {
       skills: [
         "Discord", "Slack", "Visual Studio Code", "IntelliJ IDEA", "GitHub", "Gitlab", "JIRA"
       ]
+    },
+    {
+      category: "Design Frameworks",
+      skills: [
+        "React", "Redux", "Vite", "Angular", "Figma", "Tailwind CSS", "SCSS", "DOM", "HTML", "Bootstrap", "Ant Design", "UI", "UX"
+      ]
+    },
+    {
+      category: "Project Management",
+      skills: [
+        "Agile", "Scrum", "QA Testing", "Git", "Webpack", "Npm", "Pnpm", "Yarn", "Eslint", "Prettier", "Documentation", "Deployment"
+      ]
+    },
+    {
+      category: "Databases",
+      skills: [
+        "PostgreSQL", "MongoDB"
+      ]
+    },
+    {
+      category: "Operating Systems",
+      skills: [
+        "MacOS", "Ubuntu", "Kali", "Windows"
+      ]
+    },
+    {
+      category: "Soft Skills",
+      skills: [
+        "Communication", "teamwork", "problem-solving"
+      ]
     }
   ],
   work: [
