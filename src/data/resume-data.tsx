@@ -86,7 +86,7 @@ export const RESUME_DATA = {
     {
       category: "Soft Skills",
       skills: [
-        "Communication", "teamwork", "problem-solving"
+        "Communication", "Teamwork", "Problem-solving"
       ]
     }
   ],
