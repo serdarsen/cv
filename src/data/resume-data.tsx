@@ -43,7 +43,7 @@ export const RESUME_DATA = {
       school: "Adnan Menderes University, College of Education, Turkey",
       degree: "Bachelor’s Degree: Bachelor of Computer Education and Instructional Technology",
       grade: "GPA: 3.4 / 4.0",
-      date: "September 2013-June 2017"
+      date: "September 2013 - June 2017"
     },
   ],
   skills: [
