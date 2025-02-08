@@ -34,10 +34,16 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "ADU",
-      degree: "Bachelor's Degree in CEIT, GPA: 3.48/4.0 ",
-      start: "09/2013",
-      end: "06/2017",
+      school: "University of Cincinnati, Cincinnati, Ohio",
+      degree: "Master’s Degree: Master of Science: Information Technology (IT)",
+      grade: "GPA: 3.9 / 4.0",
+      date: "Expected Graduation: December 2025",
+    },
+    {
+      school: "Adnan Menderes University, College of Education, Turkey",
+      degree: "Bachelor’s Degree: Bachelor of Computer Education and Instructional Technology",
+      grade: "GPA: 3.4 / 4.0",
+      date: "September 2013-June 2017"
     },
   ],
   skills: [
