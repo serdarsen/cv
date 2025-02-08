@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     {
       company: "Myliba",
       link: "https://www.linkedin.com/company/myliba/",
-      badges: ["Remote"],
+      badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
       start: "02/2024",
@@ -93,7 +93,7 @@ export const RESUME_DATA = {
     {
       company: "Hubtic",
       link: "https://www.linkedin.com/company/hubticde/",
-      badges: ["Remote"],
+      badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
       start: "10/2022",
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
     {
       company: "Kron",
       link: "https://www.linkedin.com/company/kront/",
-      badges: ["Hybrid"],
+      badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
       start: "09/2019",
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
     {
       company: "Parknet",
       link: "",
-      badges: ["On-site"],
+      badges: ["Turkey"],
       title: "Software Developer",
       logo: "",
       start: "10/2018",

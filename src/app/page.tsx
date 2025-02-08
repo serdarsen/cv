@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-52">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -96,7 +96,7 @@ export default function Page() {
         <Section>
           <h2 className="text-md font-bold">SUMMARY</h2>
           <p className="text-pretty font-mono text-md text-muted-foreground">
-            {RESUME_DATA.summary.split("**").map((part, i) => i % 2 === 1 ? <strong className="text-gray-700" key={i}>{part}</strong> : part)}
+            {RESUME_DATA.summary.split("**").map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)}
           </p>
         </Section>
 
@@ -138,7 +138,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-md">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline text-gray-500" href={work.link}>
+                      <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
 
@@ -146,7 +146,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs text-gray-500"
+                            className="align-middle"
                             key={badge}
                           >
                             {badge}
@@ -169,7 +169,7 @@ export default function Page() {
                     (
                       <li key={index}>
                         {
-                          item.split("**").map((part, i) => i % 2 === 1 ? <strong className="text-gray-700" key={i}>{part}</strong> : part)
+                          item.split("**").map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)
                         }
                       </li>
                     ))}
