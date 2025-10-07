@@ -50,7 +50,7 @@ export const RESUME_DATA = {
     {
       category: "Programming Languages",
       skills: [
-        "Java", "C#", "Python", "JavaScript", "TypeScript", "Spring Boot", ".Net Core", "JSON"
+        "Java", "C#", "Python", "JavaScript", "TypeScript", "Express.js", "Node.js", "Spring Boot", ".Net Core", "JSON"
       ]
     },
     {
@@ -101,6 +101,18 @@ export const RESUME_DATA = {
     "SOLID Software Design Principles in Java | Pluralsight | August 2020"
   ],
   work: [
+    {
+      company: "SoIT",
+      link: "https://www.linkedin.com/company/uc-school-of-information-technology/",
+      badges: ["Cincinnati", "Ohio", "United States"],
+      title: "Software Developer",
+      logo: "",
+      date: "May 2025 - Present",
+      items: [
+        "Improved user experience on four key pages by 90% by implementing server-side pagination using Express.js, React.js, and PostgreSQL.",
+        "Enhanced usage reports **by 80%** by implementing chart-heavy analytics pages."
+      ]
+    },
     {
       company: "Myliba",
       link: "https://www.linkedin.com/company/myliba/",
